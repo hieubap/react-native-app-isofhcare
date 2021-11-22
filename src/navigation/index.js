@@ -14,6 +14,7 @@ import {
 
 import { connect } from "react-redux";
 import Calendar from "../screen/calendar";
+import Community from "../screen/community";
 import Home from "../screen/home";
 import notification from "../screen/notification";
 import Setting from "../screen/setting";
@@ -52,10 +53,10 @@ const screenOptions = [
     component: Home,
   },
   {
-    name: "Stock",
+    name: "Community",
     icon: require("../assets/image/stock.jpg"),
     iconActive: require("../assets/image/stock-active.jpg"),
-    component: Stock,
+    component: Community,
   },
   {
     name: "Shop",

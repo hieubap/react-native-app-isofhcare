@@ -2,10 +2,10 @@ import React from "react";
 import {Button, StyleSheet, Text, View} from "react-native";
 
 
-const Shop = (props) => {
+const Community = (props) => {
   return (
     <View style={styles.container}>
-      <Text>Shop!</Text>
+      <Text>Cộng đồng!</Text>
       <Text style={{ fontWeight: "bold" }}>BASE REACT NATIVE APP</Text>
       <Button title="Click me!" onPress={() => console.log('click me')} />
     </View>
@@ -22,4 +22,4 @@ const styles = StyleSheet.create({
     },
   });
 
-export default Shop;
+export default Community;
